@@ -1,6 +1,7 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Header from "./components/header/Header"
 import HeaderBar from "./components/header/HeaderBar"
+import Home from "./components/Home/Home"
 
 export default function App(){
 
@@ -10,7 +11,7 @@ export default function App(){
       <Header />
       <hr />
       <Routes>
-        <Route></Route>
+        <Route path="/" element={<Home />}/>
       </Routes>
     </BrowserRouter>
   )
