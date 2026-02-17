@@ -1,0 +1,120 @@
+.headerbar{
+    width: 100vw;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    height: 48px;
+}
+
+.headerbarelement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    height: 100%;
+    gap: 231px;
+}
+
+.headerbarelement > div{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.headerbarelement > div > h1{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    font-weight: 400;
+}
+
+
+.headerbarelement > div > a{
+    font-weight: 600;
+    text-decoration: underline;
+    color: #FFFFFF;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    align-items: center;
+}
+
+.selectoption{
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+}
+
+.logo{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #184b4b;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+nav{
+    display: flex;
+    font-family: Poppins;
+    gap: 30px;
+}
+
+.navlink{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.searchsection{
+    display: flex;
+    gap: 20px;
+}
+
+.searchsection > div{
+    display: inline-flex;
+    align-items: center;
+}
+
+.search{
+    padding: 3px 10px;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.search > input {
+    border: none;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    width: 211px;
+}
+
+
+.cart{
+    gap: 10px;
+}
+
+hr{
+    width: 100%;
+    border: 0.5px solid black;
+    opacity: 30%;
+    margin: 0;
+}
